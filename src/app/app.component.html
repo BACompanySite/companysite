@@ -6,7 +6,53 @@
 
 <router-outlet></router-outlet>
 
-<p>
-    this is a test
-</p>
+
+<!--footer start-->
+<div class="container-fluid">
+  <div class="row">
+    <div class="up-strip text-center">
+      <div class="footer-social-icons">
+        <div>
+          <a href="https://web.facebook.com"
+             target="_blank">
+            <span>
+              <i class="fa fa-facebook"></i>
+            </span>
+          </a>
+        </div>
+        <div>
+          <a href="https://plus.google.com/u/0/106638981153726355372" target="_blank">
+            <span>
+              <i class="fa fa-google-plus"></i>
+            </span>
+          </a>
+        </div>
+        <div>
+          <a href="https://twitter.com/sistouroperator" target="_blank">
+            <span>
+              <i class="fa fa-twitter"></i>
+            </span>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-links">
+        <a [routerLink]="['home']" class="text-uppercase">HOME |</a>
+        <a [routerLink]="['ai-ml-dl']" class="text-uppercase">AI |</a>
+        <a [routerLink]="['game-development']" class="text-uppercase">game-development |</a>
+        <a [routerLink]="['digital-marketing']" class="text-uppercase">digital-marketing |</a>
+        <a [routerLink]="['sw-development']" class="text-uppercase">sw-development </a>
+        <a [routerLink]="['contact']" class="text-uppercase">CONTACT </a>
+      </div>
+    </div>
+
+    <div class="bottom-strip text-right">
+      <p>Copyright © 2018 Brain Arts  <span> | </span>  Application designed & developed by Brain Arts</p>
+    </div>
+
+  </div>
+  <!--<ng4-loading-spinner> </ng4-loading-spinner>-->
+</div>
+
+<!--footer end-->
 

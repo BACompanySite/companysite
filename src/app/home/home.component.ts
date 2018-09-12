@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 
+declare var jquery:any;
+
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
@@ -8,13 +10,13 @@ import { Router } from '@angular/router';
 })
 export class HomeComponent implements OnInit {
 
-  
+
   constructor ( private router: Router) {}
 
   ngOnInit() {
   }
 
-  
+
 
   AiMlDlButtonClick() {
     // alert("AI ML DL");

@@ -30,29 +30,31 @@
     transition: 0.8s;
 }
 
-.findoutmore button{
-  display: block;
-  animation-duration: 1s;
-  animation-fill-mode: both;
-  animation-name: fadeIn;
+/* Create five equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  height: 300px;
 }
-.findoutmore button{
+
+
+.main-divs{
+  height: calc(650px);
+  width:  calc(269px);
+  display: inline-block;
+
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.findoutmore {
+  text-align: center;
+}
+
+.green-button {
   position: absolute;
-  left: 50%;
   top: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-
-  display: none;
-}
-
-.findoutmore button{
-  display: block;
-  -webkit-animation-duration: 1s;
-  animation-duration: 1s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
-
-  -webkit-animation-name: fadeIn;
-  animation-name: fadeIn;
+  /*cursor: pointer;*/
 }
