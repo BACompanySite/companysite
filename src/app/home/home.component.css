@@ -1,0 +1,31 @@
+.main-img-set{
+    width: 20%;
+    /* height: 40%; */
+    white-space: nowrap;
+}
+.main-img img{
+    white-space: nowrap;
+    float: left;
+}
+.secondDiv {
+    text-align: center;
+    align-content: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    min-height: 100%;
+}
+.helloBtn {
+    background: red;
+    box-shadow: 10px 10px 8px #777777;
+    transition: backgroud 0.5s ease-in-out;
+    border: yellow;
+    font-size: 30px;
+    cursor: pointer;
+    color: blanchedalmond;
+}
+.helloBtn:hover {
+    background: yellow;
+    color: black;
+    transform: rotateX(360deg);
+    transition: 0.8s;
+}
