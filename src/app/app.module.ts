@@ -15,6 +15,17 @@ import { SwDevComponent } from './sw-dev/sw-dev.component';
 import { HomeComponent } from './home/home.component';
 
 import { RoutesModule } from './routes.module';
+import { Routes, RouterModule} from "@angular/router";
+
+// const appRoutes : Routes =[
+// { path: '' , component: HomeComponent},
+// { path: 'ai-ml-dl', component: AiComponent},
+// { path: 'game-development', component: GameDevComponent},
+// { path: 'digital-marketing', component: MarketingComponent},
+// { path: 'sw-development', component: SwDevComponent},
+// { path: 'contact', component: ContactComponent},
+// { path: 'home', component: HomeComponent }
+// ];
 
 @NgModule({
   declarations: [
@@ -35,7 +46,8 @@ import { RoutesModule } from './routes.module';
     MatIconModule,
     MatCardModule,
     MatToolbarModule,
-    RoutesModule
+    RoutesModule,
+    RouterModule
   ],
   providers: [],
   bootstrap: [AppComponent]
