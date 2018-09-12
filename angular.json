@@ -78,9 +78,23 @@
               {
                 "input": "src/custom-the.scss"
               },
-              "src/styles.css"
+              "src/styles.css",
+              "styles.css",
+              "../src/stylesheet/bootstrap.min.css",
+              "../src/stylesheet/bootstrap-theme.min.css",
+              "../src/stylesheet/my-styles.css",
+              "../src/stylesheet/slick.css",
+              "../src/stylesheet/slick-theme.css",
+              "../src/stylesheet/font-awesome.min.css",
+              "../src/stylesheet/animate.css",
+              "../node_modules/ngx-bootstrap/datepicker/bs-datepicker.css",
+              "../node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
-            "scripts": [],
+            "scripts": [
+              "../src/javascript/jquery-3.3.1.min.js",
+              "../src/javascript/bootstrap.min.js",
+              "../src/javascript/slick.min.js"
+            ],
             "assets": [
               "src/favicon.ico",
               "src/assets"
