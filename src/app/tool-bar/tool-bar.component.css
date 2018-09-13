@@ -6,23 +6,36 @@
 }
 .example-icon {
     padding: 0 14px;
-  }  
+  }
 .example-spacer {
     flex: 1 1 auto;
 }
 .toolbar-class{
     background-color: white;
 }
+
+.text-class {
+  color: #afaeae;
+}
 .company-logo{
     width: 65px;
     object-fit: contain;
 }
 .text-class :hover{
-    color: red;
+    color: #777777;
 }
 .toolbar-button {
    background: white;
    border: none;
    font-size: 20px;
    cursor: pointer;
+   color:#afaeae ;
+}
+
+.toolbar-button:hover{
+  color: #777777;
+}
+
+.seperator{
+border-left: solid 1px #afaeae;
 }

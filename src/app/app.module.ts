@@ -17,6 +17,7 @@ import { HomeComponent } from './home/home.component';
 import { RoutesModule } from './routes.module';
 import { Routes, RouterModule} from "@angular/router";
 import { AlertModule } from 'ngx-bootstrap';
+import {AngularFontAwesomeModule} from "angular-font-awesome";
 
 // const appRoutes : Routes =[
 // { path: '' , component: HomeComponent},
@@ -49,7 +50,8 @@ import { AlertModule } from 'ngx-bootstrap';
     MatCardModule,
     MatToolbarModule,
     RoutesModule,
-    RouterModule
+    RouterModule,
+    AngularFontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
