@@ -237,11 +237,43 @@ visibility: hidden;
 .txt_cont{
   text-align: left;
   position: absolute;
-  padding: 20px 2vw;
+  padding: 10px 2vw;
   width: 100%;
   font-weight: 600;
-  font-size: 20px;
+  font-size: 16px;
   color: #fff;
   bottom: 0;
   background-color: rgba(0, 0, 0, .75);
+  font-family: AvenirNextLTPro, "Open Sans", serif;
+}
+
+.projects1{
+  height: 400px;
+}
+.projects2{
+  height: 196px;
+}
+
+.project-section{
+  overflow: hidden;
+}
+.project-section1{
+  /*background-color: #afaeae;*/
+  padding-left: 0;
+  padding-right: 0px;
+  overflow: hidden;
+}
+
+.project-section2{
+  padding-left: 0;
+  padding-right: 10px;
+  padding-top: 12.5px;
+  overflow: hidden;
+}
+
+.project-section3{
+  padding-left: 10px;
+  padding-right: 0;
+  padding-top: 12.5px;
+  overflow: hidden;
 }
