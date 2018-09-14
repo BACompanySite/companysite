@@ -27,15 +27,17 @@
 .toolbar-button {
    background: white;
    border: none;
-   font-size: 20px;
+   font-size: 12px;
    cursor: pointer;
    color:#afaeae ;
+   font-family: AvenirNextLTPro, "Open Sans", serif;
 }
 
 .toolbar-button:hover{
-  color: #777777;
+  color: red;
 }
 
 .seperator{
 border-left: solid 1px #afaeae;
 }
+

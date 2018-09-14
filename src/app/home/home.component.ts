@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
+// import { WOW } from 'wowjs/dist/wow.min';
+
 
 declare var jquery:any;
 declare var $: any;
@@ -15,6 +17,8 @@ export class HomeComponent implements OnInit {
   constructor ( private router: Router) {}
 
   ngOnInit() {
+    // this.wowAnimationStart();
+
 // this.jqueryTest();
   }
 
@@ -41,5 +45,9 @@ export class HomeComponent implements OnInit {
   // {
   // alert("jQuery test");
   // }
-
+  // wowAnimationStart(){
+  //   $(document).ready(function(){
+  //     new WOW().init();
+  //   });
+  // }
 }
